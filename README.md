@@ -37,3 +37,4 @@ In this project we will be working with the UCI adult dataset. We will be attemp
 
 ## 5.0 Lessons Learned
 - Data Cleansing
+- Logical Regression
