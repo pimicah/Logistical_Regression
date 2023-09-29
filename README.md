@@ -1,7 +1,7 @@
 # Logistical_Regression
 In this project we will be working with the UCI adult dataset. We will be attempting to predict if people in the data set belong in a certain class by salary, either making <=50k or >50k per year.
 
-## 1.0 Business Problem
+## 1.0 Introduction
 > The data and the description has been adapted from the University of Caliornia, Irvine...
 > 
 
@@ -13,7 +13,7 @@ In this project we will be working with the UCI adult dataset. We will be attemp
 
 
 #### Step 01.Data Description:
-- In this first section the data will be collected and studied. The missing values will be threated or removed. Finally, a initial data description will carried out to know the data. Therefore some calculations of descriptive statistics will be made, such as kurtosis, skewness, media, fashion, median and standard deviation.
+- In this first section the data will be collected and studied. The missing values will be threated or removed.  First, all the '?' values are changed to N/A's and then deleted. Using the Amelia package we can create a missing map, essentially a heat map pointing out missing values.  Finally, a initial data description will carried out to know the data. Therefore some calculations of descriptive statistics will be made, such as kurtosis, skewness, media, fashion, median and standard deviation.  
 
 #### Step 02. Feature Engineering:
 
