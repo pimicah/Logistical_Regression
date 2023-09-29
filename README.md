@@ -1,9 +1,10 @@
 # Logistical_Regression
+In this project we will be working with the UCI adult dataset. We will be attempting to predict if people in the data set belong in a certain class by salary, either making <=50k or >50k per year.
 
 ## 1.0 Business Problem
-> The data and the description has been adapted from Kaggles's Bike Sharing Demand Challenge and Udemy...
-> ##### Kaggle Dataset Description: You are provided hourly rental data spanning two years. For this competition, the training set is comprised of the first 19 days of each month, while the test set is the 20th to the end of the month. You must predict the total count of bikes rented during each hour covered by the test set, using only information available prior to the rental period.
+> The data and the description has been adapted from Udemy...
 > 
+
 
 ## 2.0 Business Assumption
 
