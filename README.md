@@ -32,7 +32,14 @@ A logical regression model is used to predict the outcome of categorical depende
 After calculating the performance in measurements of recall and precision we can see that that the percentage is .97 and .93 percent.  Given the information, there is no real way to get a correct evaluation of how good this model is.  The main factor that we need to determine is the cost associated with accuracy, precision, and recall.  Because we have no intention for this model and data as a final product/process we don't actually have a good opinion on whether this was a good model.  We don't know what we have to maximize. 
 
 
-## 3.0 Conclusion
+## 3.0 References
+Dobson, A. J. (1990) An Introduction to Generalized Linear Models. London: Chapman and Hall.
+
+Hastie, T. J. and Pregibon, D. (1992) Generalized linear models. Chapter 6 of Statistical Models in S eds J. M. Chambers and T. J. Hastie, Wadsworth & Brooks/Cole.
+
+McCullagh P. and Nelder, J. A. (1989) Generalized Linear Models. London: Chapman and Hall.
+
+Venables, W. N. and Ripley, B. D. (2002) Modern Applied Statistics with S. New York: Springer.
 
 
 ## 4.0 Lessons Learned
