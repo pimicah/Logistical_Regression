@@ -1,0 +1,42 @@
+# Import Library
+library(caTools)
+
+# Set a random see so your "random" results are the same as this notebook
+set.seed(101) 
+
+# Split up the sample, basically randomly assigns a booleans to a new column "sample"
+sample <- sample.split(adult$income, SplitRatio = 0.70) # SplitRatio = percent of sample==TRUE
+
+# Training Data
+train = subset(adult, sample == TRUE)
+
+# Testing Data
+test = subset(adult, sample == FALSE)
+
+Usage
+glm(formula, family = gaussian, data, weights, subset,
+    na.action, start = NULL, etastart, mustart, offset,
+    control = list(...), model = TRUE, method = "glm.fit",
+    x = FALSE, y = TRUE, contrasts = NULL, ...)
+
+glm.fit(x, y, weights = rep(1, nobs),
+        start = NULL, etastart = NULL, mustart = NULL,
+        offset = rep(0, nobs), family = gaussian(),
+        control = list(), intercept = TRUE)
+
+## S3 method for class 'glm'
+weights(object, type = c("prior", "working"), ...)
+
+model = glm(income ~ ., family = binomial(logit), data = train)
+test$predicted.income = predict(model, newdata=test, type="response")
+
+table(test$income, test$predicted.income > 0.5)
+(6372+1423)/(6372+1423+548+872)
+
+#recall
+6732/(6372+548)
+
+#precision
+6732/(6372+872)
+
+
