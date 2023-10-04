@@ -5,7 +5,7 @@ In this project we will be working with the UCI adult dataset. We will be attemp
 > The data and the description has been adapted from the University of Caliornia, Irvine...
 > 
 
-## 2.0 Solution Strategy
+## 2.0 Pipeline
 
 
 #### Step 01.Data Description:
