@@ -18,7 +18,10 @@ In this project we will be working with the UCI adult dataset. We will be attemp
 - There are a lot of columns that are cateogrical factors, however a lot of these columns have too many factors than may be necessary. In this data filtering section we'll try to clean these columns up by reducing the number of factors.
 
 #### Step 04. Exploratory Data Analysis:
-- Using GGplot2 a histogram is made to visualize the count of those with an income 50,000 and above on the Y axis and their ages on the X axis.  Those with the color red are earning less than or equal to 50k per year.  Those around 25 to 30 are rarely making over 50k but those numbers increase as the age increases.  Next, a histogram is made to visualize the count of those who work a certain amount of hours per week and a bar plot is made of regions displayed by their income class.  
+- Using GGplot2 a histogram is made to visualize the count of those with an income 50,000 and above on the Y axis and their ages on the X axis.  Those with the color red are earning less than or equal to 50k per year.  Those around 25 to 30 are rarely making over 50k but those numbers increase as the age increases.  Next, a histogram is made to visualize the count of those who work a certain amount of hours per week and a bar plot is made of regions displayed by their income class.
+  ![Screenshot 2023-10-04 102639](https://github.com/pimicah/Logistical_Regression_Proj1/assets/144563378/26d04888-fc19-4bbb-8c7f-2824a7100742)
+![Screenshot 2023-10-04 102741](https://github.com/pimicah/Logistical_Regression_Proj1/assets/144563378/6e0b1bb9-d8f0-4206-8c04-18b04405693e)
+
 
 #### Step 05. Model Deployment:
 A logical regression model is used to predict the outcome of categorical dependent variables, using one or more independent variables.  The independent variable can be either categorical or numerical.  Logistic regression is based on the logistic function, which always takes values between 0 and 1. Replacing the dependent variable of the logistic function with a linear combination of dependent variables we intend to use for regression, we arrive at the formula for logistic regression.
