@@ -9,7 +9,9 @@ In this project we will be working with the UCI adult dataset. We will be attemp
 
 
 #### Step 01.Data Description:
-- In this first section the data will be collected and studied. The missing values will be threated or removed.  First, all the '?' values are changed to N/A's and then deleted. Using the Amelia package we can create a missing map, essentially a heat map pointing out missing values.  Finally, a initial data description will carried out to know the data. Therefore some calculations of descriptive statistics will be made, such as kurtosis, skewness, media, fashion, median and standard deviation.  
+- In this first section the data will be collected and studied. The missing values will be threated or removed.  First, all the '?' values are changed to N/A's and then deleted. Using the Amelia package we can create a missing map, essentially a heat map pointing out missing values.  Finally, a initial data description will carried out to know the data. Therefore some calculations of descriptive statistics will be made, such as kurtosis, skewness, media, fashion, median and standard deviation.
+- ![Screenshot 2023-10-04 103218](https://github.com/pimicah/Logistical_Regression_Proj1/assets/144563378/dcc0f6f8-ae92-4b0a-808f-2d2a7c7c568b)
+
 
 #### Step 02. Feature Engineering:
 - In this section, a mind map will be created to assist the creation of the hypothesis and the creation of new features. These assumptions will help in exploratory data analysis and may improve the model scores.
