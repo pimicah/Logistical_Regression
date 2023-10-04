@@ -35,6 +35,6 @@ After calculating the performance in measurements of recall and precision we can
 ## 3.0 Conclusion
 
 
-## 5.0 Lessons Learned
+## 4.0 Lessons Learned
 - Data Cleansing
 - Logical Regression
