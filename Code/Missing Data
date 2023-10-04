@@ -1,1 +1,16 @@
+#install.packages('Amelia',repos = 'http://cran.us.r-project.org')
+library(Amelia)
+
+adult[adult == '?'] <- NA
+table(adult$type_employer)
+adult$type_employer <- sapply(adult$type_employer,factor)
+adult$country <- sapply(adult$country,factor)
+adult$marital <- sapply(adult$marital,factor)
+adult$occupation <- sapply(adult$occupation,factor)
+
+missmap(adult)
+missmap(adult,y.at=c(1),y.labels = c(''),col=c('yellow','black'))
+
+adult <- na.omit(adult)
+missmap(adult,y.at=c(1),y.labels = c(''),col=c('yellow','black'))
 
