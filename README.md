@@ -5,18 +5,14 @@ In this project we will be working with the UCI adult dataset. We will be attemp
 > The data and the description has been adapted from the University of Caliornia, Irvine...
 > 
 
-
-## 2.0 Business Assumption
-
-
-## 3.0 Solution Strategy
+## 2.0 Solution Strategy
 
 
 #### Step 01.Data Description:
 - In this first section the data will be collected and studied. The missing values will be threated or removed.  First, all the '?' values are changed to N/A's and then deleted. Using the Amelia package we can create a missing map, essentially a heat map pointing out missing values.  Finally, a initial data description will carried out to know the data. Therefore some calculations of descriptive statistics will be made, such as kurtosis, skewness, media, fashion, median and standard deviation.  
 
 #### Step 02. Feature Engineering:
-
+- In this section, a mind map will be created to assist the creation of the hypothesis and the creation of new features. These assumptions will help in exploratory data analysis and may improve the model scores.
 
 #### Step 03. Data Filtering:
 - There are a lot of columns that are cateogrical factors, however a lot of these columns have too many factors than may be necessary. In this data filtering section we'll try to clean these columns up by reducing the number of factors.
@@ -25,14 +21,13 @@ In this project we will be working with the UCI adult dataset. We will be attemp
 - Using GGplot2 a histogram is made to visualize the count of those with an income 50,000 and above on the Y axis and their ages on the X axis.  Those with the color red are earning less than or equal to 50k per year.  Those around 25 to 30 are rarely making over 50k but those numbers increase as the age increases.  Next, a histogram is made to visualize the count of those who work a certain amount of hours per week and a bar plot is made of regions displayed by their income class.  
 
 #### Step 05. Model Deployment:
-
+A logical regression model is used to predict the outcome of categorical dependent variables, using one or more independent variables.  The independent variable can be either categorical or numerical.  Logistic regression is based on the logistic function, which always takes values between 0 and 1. Replacing the dependent variable of the logistic function with a linear combination of dependent variables we intend to use for regression, we arrive at the formula for logistic regression.
 
 #### Step 06. Conclusion:
+After calculating the performance in measurements of recall and precision we can see that that the percentage is .97 and .93 percent.  Given the information, there is no real way to get a correct evaluation of how good this model is.  The main factor that we need to determine is the cost associated with accuracy, precision, and recall.  Because we have no intention for this model and data as a final product/process we don't actually have a good opinion on whether this was a good model.  We don't know what we have to maximize. 
 
 
-## 3.0 Business Results
-
-## 4.0 Conclusion
+## 3.0 Conclusion
 
 
 ## 5.0 Lessons Learned
