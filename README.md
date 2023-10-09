@@ -1,10 +1,10 @@
 # Logistical_Regression
 In this project we will be working with the UCI adult dataset. We will be attempting to predict if people in the data set belong in a certain class by salary, either making <=50k or >50k per year.
 
-## 1.0 Introduction
-> The data and the description has been adapted from the University of Caliornia, Irvine...
+## 1.0 Objective
+> The data and the description has been adapted from the University of California, Irvine...
 > 
-
+The on
 ## 2.0 Pipeline
 
 
